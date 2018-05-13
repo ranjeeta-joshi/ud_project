@@ -36,7 +36,7 @@ pixelsCanvas.on('click', 'td', function() {
 
 //Settings cell background to white by default
 pixelsCanvas.on('dblclick', 'td', function() {
-  $(this).css('background', 'white');
+  $(this).css('background','');
 });
 
 
